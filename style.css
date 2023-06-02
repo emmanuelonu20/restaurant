@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#header{
+    background-color: #198754;
+    color: #fff;
+    padding: 15px 0; /* TopBottom LeftRight */
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#nav{
+    list-style: none;
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#nav li a{
+    color: #beead5;
+    text-decoration: none;
+}
+
+#nav li a:hover, #nav li a.active{
+    color: #fff;
+}
+
+.call{
+    float: right;
+}
+
+.site-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.food-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
+.food-list img{
+    max-width: 100%;
+}
+
+.food-item{
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.food-item .food-desc{
+    padding: 15px;
+}
+
+.food-item h4, .food-item p{
+    margin-bottom: 15px;
+}
+
+.like-button, .dislike-button{
+    padding: 13px 40px;
+    background-color: #2e63b8;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.dislike-button{
+    background-color: #ee4343;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #198754;
+    margin-top: 40px;
+    color: #fff;
+}
